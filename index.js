@@ -7,7 +7,7 @@ const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-const allowedOrigin = ["https://autoshareby-kristbella.vercel.app", "https://autoshareby-kristbella.vercel.app"];
+const allowedOrigin = ["https://autoshareby-kristbella.vercel.app", "https://vercel.com/krisanto352s-projects/autoshare.by-kris-bella-ylla-ybrahim-kirby"];
 
 app.use(cors());
 app.use(express.json());
